@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		9B10D3E223FDF4380091BCE4 /* ReadTextAndJSONFile */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ReadTextAndJSONFile; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B10D3E523FDF4380091BCE4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9B10D3EC23FDF4800091BCE4 /* data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				9B10D3E523FDF4380091BCE4 /* main.swift */,
+				9B10D3EC23FDF4800091BCE4 /* data.txt */,
 			);
 			path = ReadTextAndJSONFile;
 			sourceTree = "<group>";

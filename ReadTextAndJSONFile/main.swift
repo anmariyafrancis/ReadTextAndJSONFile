@@ -8,5 +8,12 @@
 
 import Foundation
 
-print("Hello, World!")
+func readTextFile(fileName:String)
+{
+    let path=Bundle.main.path(forResource: fileName, ofType: "txt")
+    print(path)
+    
+}
+
+readTextFile(fileName: "data")
 
