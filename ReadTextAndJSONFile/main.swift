@@ -10,8 +10,14 @@ import Foundation
 
 func readTextFile(fileName:String)
 {
-    let path=Bundle.main.path(forResource: fileName, ofType: "txt")
-    print(path)
+    print(Bundle.main.bundlePath)
+    if let path=Bundle.main.path(forResource: fileName, ofType: "txt")
+    {
+        print(path)
+        let str=try!String(contentsOfFile: path)
+        print(str)
+    }
+    
     
 }
 
